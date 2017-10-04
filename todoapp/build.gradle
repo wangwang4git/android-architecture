@@ -20,6 +20,7 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+// 依赖库的版本号定义在根节点，对统一各个子模块依赖库版本比较可控
 // Define versions in a single place
 ext {
     // Sdk and tools
